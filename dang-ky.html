@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tài khoản</title>
+    <style>
+        body {
+      font-family: "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+        }
+
+        fieldset {
+      width: 360px;
+      border: 2px solid #999;
+      padding: 20px 30px 30px;
+        }
+
+        legend {
+            font-weight: bold;
+      padding: 0 8px;
+        }
+
+        .row {
+            margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+        }
+
+        label {
+      width: 110px;
+      text-align: right;
+        }
+
+        input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      flex: 1;
+      padding: 4px 6px;
+      border: 1px solid #999;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        button, input[type="reset"] {
+            padding: 5px 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-box">
+        <fieldset>
+            <legend>Đăng ký tài khoản</legend>
+
+            <div class="row">
+                <label>Họ và tên:</label>
+                <input type="text" placeholder="Nhập họ và tên">
+            </div>
+
+            <div class="row">
+                <label>Tên tài khoản:</label>
+                <input type="text" placeholder="Nhập tên tài khoản">
+            </div>
+
+            <div class="row">
+                <label>Địa chỉ Email:</label>
+                <input type="email" placeholder="Nhập địa chỉ Email">
+            </div>
+
+            <div class="row">
+                <label>Điện thoại:</label>
+                <input type="text" placeholder="Nhập số điện thoại">
+            </div>
+
+            <div class="btn">
+                <input type="reset" value="Reset">
+                <button type="submit">Đăng ký</button>
+            </div>
+        </fieldset>
+    </div>
+
+</body>
+</html>
